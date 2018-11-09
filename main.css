@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+  background: url(https://i.imgur.com/iclEoRG.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}
+
 body {
-  margin: 30px auto;
+  text-align: center;
+  margin: 15px auto;
   max-width: 1000px;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   padding: 30px 20px;
 }
