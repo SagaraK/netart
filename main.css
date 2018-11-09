@@ -15,12 +15,18 @@ body {
   padding: 30px 20px;
 }
 
-h1 {
-  color: red;
-  padding: 20px 0px 10px 0px;
+b {
+  color: #4C73E8;
+  text-decoration: none;
 }
 
 a {
-color: #69CBBB;
+color: #FF2B2A;
 text-decoration: none;
+}
+
+
+.homevid {
+  background-color: #96add3;
+  padding: 50px;
 }
