@@ -9,7 +9,7 @@
         <div class="wrapper">
             <form class="form1" action="https://sagarak.github.io/netart/pagefive.html?">
                 <div class="formtitle">
-                    <h2><a>Enter Code</a></h2>
+                    <h3><a>Enter Code</a></h3>
                 </div>
 
                 <div class="input nobottomborder">
@@ -32,14 +32,15 @@
       function checkPassword(){
        if(document.getElementById('password').value == '791'){
         alert('Correct Password!');
-          location.href = "https://sagarak.github.io/netart/pagefive.html?";
+          location.href = "https://sagarak.github.io/netart/pagefive.html";
+          return true;
         }
-          if(document.getElementById('password').value == '791'){
-           alert('Correct Password!');
-
-         } else {
-         alert('Wrong Password!');
-          return false;
+       if(document.getElementById('password').value == '794'){
+          alert('Entering');
+        }
+          else {
+            alert('Wrong Password!');
+            return false;
         }
        }
       </script>
