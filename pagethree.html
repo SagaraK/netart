@@ -6,11 +6,33 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
       <body>
-        <form action="https://sagarak.github.io/netart/pagefive.html" >
-          <a>Code:<br>
-          <input type="text" name="code"></a><br>
-          <button type="submit">Submit</button>
-        </form>
+        <div class="wrapper">
+         <form class="form1" action="https://sagarak.github.io/netart/pagefive.html">
+             <div class="formtitle">
+                <h3><a>Enter the code to proceed</a></h3>
+             </div>
+                 <div class="inputcontent">
+                     <input type="password" id="password" /><br />
+                 </div>
+             </div>
+
+             <div class="buttons">
+                 <input class="orangebutton" type="button" value="Submit" onclick="checkPassword()" />
+             </div>
+         </form>
+     </div>
+
+    <script>
+   function checkPassword(){
+    if(document.getElementById('password').value == '7'){
+     alert('Correct Password!');
+       location.href = "https://sagarak.github.io/netart/pagefive.html";
+      } else {
+      alert('Wrong Password!');
+       return false;
+     }
+    }
+   </script>
 
       <h3><a href="index.html">home</a></h3>
       </body>
